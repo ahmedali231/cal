@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: "poppins", sans-serif;
+
+} 
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 78, 88);
+}
+
+.cal{
+    width: 300px;
+    height: 450;
+    border: solid rgb(40, 49, 43,.5);
+margin-top: 10%;
+box-shadow: 3px 2px rgb(136, 126, 108,.5);
+
+
+}
+.disp{
+height: 100px;
+width: 100%;
+text-align: right;
+padding: 10px;
+font-size: 18px;
+}
+.btn{
+
+    width: 23.8%;
+    height: 60px;
+    color: #fff;
+    background-color: #0c2835;
+    place-items:center;
+    border: 1px solid rgba(173, 146, 146, 0.3);
+border-radius: 5px 0 5px;
+font-size: 18px;
+
+
+}
+.c{
+    width: 100%;
+}
